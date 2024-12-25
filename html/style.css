@@ -15,23 +15,29 @@ body {
 	flex-direction: column;
 }
 
-/* Top-right position (default) */
 #container.top-right {
-	top: 1vh;
-	right: 10vw;
+    top: 2%;
+    right: 2%;
+    transform: scale(0.8); 
 }
 
-/* Top-left position */
 #container.top-left {
-	top: 0;
-	left: 0;
-	margin: 10px;
+    top: 2%;
+    left: 2%;
+    margin: 0;
+    transform: scale(0.8);
 }
 
-/* Bottom-Left position */
 #container.bottom-left {
-	bottom: 2vh;
-	left: 14.5vw;
+    bottom: 2%;
+    left: 2%;
+    transform: scale(0.8);
+}
+
+#container.bottom-right {
+    bottom: 2%;
+    right: 2%;
+    transform: scale(0.8);
 }
 
 header {
